@@ -1,0 +1,11 @@
+sequenceDiagram
+    participant Mohamed as Mohamed
+    participant Ahmed as Ahmed
+    participant Omar as Omar
+    par Mohamed to Ahmed
+        Mohamed->>Ahmed: Salam guys!
+    and Mohamed to Omar
+        Mohamed->>Omar: Salam guys!
+    end
+    Ahmed-->>Mohamed: Salam Mohamed!
+    Omar-->>Mohamed: Salam Mohamed!

@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant Mohamed as Mohamed
+    participant Ahmed as Ahmed
+    Mohamed->>Ahmed: Salam Ahmed, how are you?
+    alt Alt
+        Ahmed->>Mohamed: Salam Mohamed, Alhamdulillah!
+    else Second Alt
+        Ahmed-->>Mohamed: Salam Mohamed, Alhamdulillah!
+    else Third Alt
+        Ahmed-)Mohamed: Salam Mohamed, Alhamdulillah!
+    else Fourth Alt
+        Ahmed--)Mohamed: Salam Mohamed, Alhamdulillah!
+    end
