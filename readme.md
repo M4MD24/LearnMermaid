@@ -104,6 +104,14 @@
     7. CSS Formatting
         1. Style
 
+4. **Gantt**
+    1. Section
+    2. Display Mode
+        1. Compact
+    3. Comment
+    4. Today Marker
+    5. Bar Chart
+
 ---
 
 ## _Resources_
