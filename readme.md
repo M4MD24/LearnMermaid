@@ -75,6 +75,24 @@
     13. Font Awesome
     14. Configuration
 
+2. Sequence Diagram
+    1. Participants
+    2. Aliases
+    3. Box
+    4. Message
+    5. Activation
+    6. Note
+    7. Line Break
+    8. Loop
+    9. Alt
+    10. Opt
+    11. Parallel
+    12. Critical Region
+    13. Break
+    14. Background Highlighting
+    15. Entity Codes to Escape Characters
+    16. Sequence Number
+
 ---
 
 ## _Resources_
