@@ -1,0 +1,25 @@
+graph
+    subgraph first
+        direction LR
+        1.->2
+    end
+    subgraph second
+        subgraph first_sub_of_second
+            direction TB
+            3.->4
+        end
+        subgraph second_sub_of_second
+            direction RL
+            5.->6
+        end
+    end
+    subgraph third
+        subgraph first_sub_of_third
+            7.->8
+        end
+    end
+
+    first==osecond
+    second==xthird
+    second_sub_of_second-->first_sub_of_third
+    4..-x8
