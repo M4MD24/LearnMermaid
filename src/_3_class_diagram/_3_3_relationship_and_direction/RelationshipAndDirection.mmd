@@ -1,0 +1,30 @@
+classDiagram
+    direction LR
+    class First {
+        -String name
+        -int age
+        +String getName()
+        +void setName(String name)
+        +int getAge()
+        +void setAge(int age)
+    }
+
+    class Second {
+        -String job
+        -Date birthDate
+        +String getJob()
+        +void setJob(String job)
+        +Date getBirthDate()
+        +void setBirthDate(Date birthDate)
+    }
+
+    First -- Second
+    First .. Second
+    First --> Second
+    First ..> Second
+    First --* Second
+    First ..* Second
+    First --o Second
+    First ..o Second
+    First --|> Second
+    First ..|> Second

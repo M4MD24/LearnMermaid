@@ -75,7 +75,7 @@
     13. Font Awesome
     14. Configuration
 
-2. Sequence Diagram
+2. **Sequence Diagram**
     1. Participants
     2. Aliases
     3. Box
@@ -92,6 +92,17 @@
     14. Background Highlighting
     15. Entity Codes to Escape Characters
     16. Sequence Number
+    17. Comment
+
+3. **Class Diagram**
+    1. Class
+    2. Comment
+    3. Relationship and Direction
+    4. Lollipop
+    5. Define Namespace
+    6. Note
+    7. CSS Formatting
+        1. Style
 
 ---
 
