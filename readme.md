@@ -106,7 +106,7 @@
     8. Generic Type
     9. Interaction
 
-4. **Gantt**
+4. **Gantt Diagram**
     1. Section
     2. Display Mode
         1. Compact
@@ -126,6 +126,12 @@
     9. Comment
     10. CSS Formatting
         1. Class
+
+6. **Entity Relationship Diagram**
+    1. Entity
+    2. Relasionship
+    3. Attribute
+    4. Comment
 
 ---
 
