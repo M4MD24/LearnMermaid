@@ -1,0 +1,6 @@
+stateDiagram
+    state positive_condtion <<choice>>
+    [*]-->Number
+    Number-->positive_condtion: Is Positive
+    positive_condtion-->True: Number >= 0
+    positive_condtion-->False: Number < 0

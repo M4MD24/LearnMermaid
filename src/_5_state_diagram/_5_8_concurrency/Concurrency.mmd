@@ -1,0 +1,16 @@
+stateDiagram
+    state "Number Lock Off" as NumLockOff
+    state "Number Lock On" as NumLockOn
+    state "Capitals Lock Off" as CapsLockOff
+    state "Capitals Lock On" as CapsLockOn
+    [*]-->Buttons
+    state Buttons {
+        [*]-->NumLockOff
+        NumLockOff-->NumLockOn: Event Number Lock Pressed
+        NumLockOn-->NumLockOff: Event Number Lock Pressed
+        --
+        [*]-->CapsLockOff
+        CapsLockOff-->CapsLockOn: Event Capitals Lock Pressed
+        CapsLockOn-->CapsLockOff: Event Capitals Lock Pressed
+    }
+    Buttons-->[*]

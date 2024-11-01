@@ -1,0 +1,10 @@
+stateDiagram
+    state Fork <<fork>>
+    [*]-->Fork
+    Fork-->1
+    Fork-->2
+    state Join <<join>>
+    1-->Join
+    2-->Join
+    Join-->3
+    3-->[*]

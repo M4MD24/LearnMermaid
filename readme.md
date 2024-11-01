@@ -114,6 +114,19 @@
     4. Today Marker
     5. Bar Chart
 
+5. **State Diagram**
+    1. State
+    2. Transition and Direction
+    3. Starrt and End
+    4. Composite State
+    5. Choice
+    6. Fork and Join
+    7. Note
+    8. Concurrency
+    9. Comment
+    10. CSS Formatting
+        1. Class
+
 ---
 
 ## _Resources_
