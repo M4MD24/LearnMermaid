@@ -103,6 +103,8 @@
     6. Note
     7. CSS Formatting
         1. Style
+    8. Generic Type
+    9. Interaction
 
 4. **Gantt**
     1. Section
