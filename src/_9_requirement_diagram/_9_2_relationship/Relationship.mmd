@@ -1,0 +1,55 @@
+requirementDiagram
+    requirement requirement_name {
+        id: _id_
+        text: _text_
+        risk: low
+        verifymethod: test
+    }
+
+    element element_name {
+        type: typeName
+        docref: documentReferences
+    }
+
+    designConstraint design_constraint_name {
+        id: _id_
+        text: _text_
+        risk: low
+        verifymethod: test
+    }
+
+    functionalRequirement functional_requirement_name {
+        id: _id_
+        text: _text_
+        risk: low
+        verifymethod: test
+    }
+
+    interfaceRequirement interface_requirement_name {
+        id: _id_
+        text: _text_
+        risk: low
+        verifymethod: test
+    }
+
+    performanceRequirement performance_requirement_name {
+        id: _id_
+        text: _text_
+        risk: low
+        verifymethod: test
+    }
+
+    physicalRequirement physical_requirement_name {
+        id: _id_
+        text: _text_
+        risk: low
+        verifymethod: test
+    }
+
+    requirement_name-contains->element_name
+    requirement_name<-derives-element_name
+    design_constraint_name-copies->functional_requirement_name
+    design_constraint_name<-traces-functional_requirement_name
+    interface_requirement_name-verifies->performance_requirement_name
+    interface_requirement_name<-refines-performance_requirement_name
+    physical_requirement_name-satisfies->physical_requirement_name

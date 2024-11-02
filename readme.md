@@ -135,10 +135,17 @@
 
 7. **Pie Chart**
     1. Syntax
+    2. Comment
 
 8. **Quadrant Chart**
     1. Syntax
     2. Init
+    3. Comment
+
+9. **Requirement Diagram**
+    1. Requirement, Element and Design Constraint
+    2. Relationship
+    3. Comment 
 
 ---
 
