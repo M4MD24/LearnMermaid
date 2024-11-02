@@ -136,6 +136,10 @@
 7. **Pie Chart**
     1. Syntax
 
+8. **Quadrant Chart**
+    1. Syntax
+    2. Init
+
 ---
 
 ## _Resources_
