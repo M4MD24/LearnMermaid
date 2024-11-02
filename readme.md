@@ -133,6 +133,9 @@
     3. Attribute
     4. Comment
 
+7. **Pie Chart**
+    1. Syntax
+
 ---
 
 ## _Resources_
