@@ -145,7 +145,21 @@
 9. **Requirement Diagram**
     1. Requirement, Element and Design Constraint
     2. Relationship
-    3. Comment 
+    3. Comment
+
+10. Git (Graph / Diagram)
+    1. Title and Comment
+    2. Commit
+    3. Branch
+    4. Check Out
+    5. Merge
+    6. Cherry Pick
+    7. Init
+        1. Configuration
+        2. Custom Theme
+    8. direction
+
+~~11. Mind Map~~
 
 ---
 

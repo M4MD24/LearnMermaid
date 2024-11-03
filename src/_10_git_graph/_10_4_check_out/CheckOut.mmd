@@ -1,0 +1,12 @@
+---
+title: Check Out
+---
+gitGraph
+    commit "Message"
+    commit id: "first_commit_id" msg: "Message"
+    branch first_branch_id
+    commit id: "second_commit_id" msg: "Message" type: REVERSE
+    branch "second_branch_id"
+    commit id: "third_commit_id" msg: "Message" type: NORMAL tag: "v1.0"
+    checkout "first_branch_id"
+    commit id: "fourth_commit_id" msg: "Message" type: HIGHLIGHT tag: "v2.0"

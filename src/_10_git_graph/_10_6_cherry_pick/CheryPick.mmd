@@ -1,0 +1,15 @@
+---
+title: Chery Pick
+---
+gitGraph
+    commit "Message"
+    branch first_branch_id
+    commit id: "first_commit_id" msg: "Message"
+    branch "second_branch_id"
+    commit id: "second_commit_id" msg: "Message" type: REVERSE
+    checkout "first_branch_id"
+    commit id: "third_commit_id" msg: "Message" type: NORMAL tag: "v1.0"
+    merge second_branch_id id: "first_merge_id" tag: "v2.0"
+    commit id: "fourth_commit_id" msg: "Message" type: HIGHLIGHT tag: "v3.0"
+    merge "second_branch_id" id: "second_merge_id" type: REVERSE tag: "v4.0"
+    cherry-pick id: "second_commit_id" parent: "first_commit_id" tag: "v5.0"

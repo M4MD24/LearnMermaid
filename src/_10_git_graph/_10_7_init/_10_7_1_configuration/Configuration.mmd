@@ -1,0 +1,27 @@
+%%{
+  init: {
+    'logLevel': 'debug',
+    'theme': 'neutral',
+    'gitGraph': {
+      'mainBranchName': 'Main Branch Name',
+      'showBranches': true,
+      'mainBranchOrder': 1,
+      'rotateCommitLabel': false,
+      'showCommitLabel': false,
+      "parallelCommits": true
+    }
+  }
+}%%
+%% You can also use (neutral, dark, base, forest, default) in Theme
+gitGraph
+    commit "Message"
+    branch 1b
+    commit id: "1c" msg: "Message"
+    branch "2b"
+    commit id: "2c" msg: "Message" type: REVERSE
+    checkout "1b"
+    commit id: "3c" msg: "Message" type: NORMAL tag: "v1"
+    merge 2b id: "1merge" tag: "v2"
+    commit id: "fourth_c" msg: "Message" type: HIGHLIGHT tag: "v3"
+    merge "2b" id: "2merge" type: REVERSE tag: "v4"
+    cherry-pick id: "2c" parent: "1c" tag: "v5"
