@@ -159,7 +159,12 @@
         2. Custom Theme
     8. direction
 
-~~11. Mind Map~~
+11. Mind Map
+    1. Element
+    2. Shape
+    3. Font Awesome
+    4. Markdown Formatting
+    5. Comment
 
 ---
 
