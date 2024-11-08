@@ -161,7 +161,7 @@
 
 11. Mind Map
     1. Element
-    2. Shape
+    2. Shapes
     3. Font Awesome
     4. Markdown Formatting
     5. Comment
@@ -180,6 +180,20 @@
 14. XY Chart
     1. Syntax
     2. Comment
+
+15. Block
+    1. Element
+    2. Comment
+    3. Column
+    4. Block
+    5. Spanning
+    6. Shapes
+    7. Space
+    8. Block Arrow
+    9. Connecting
+    10. CSS Formatting
+        1. Style
+        2. Class
 
 ---
 
