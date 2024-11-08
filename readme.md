@@ -166,6 +166,21 @@
     4. Markdown Formatting
     5. Comment
 
+12. Time Line
+    1. Time Line and Event
+    2. Init
+        1. Theme
+        2. Custom Theme
+    3. Comment
+
+13. Sen Key
+    1. Syntax
+    2. Comment
+
+14. XY Chart
+    1. Syntax
+    2. Comment
+
 ---
 
 ## _Resources_
