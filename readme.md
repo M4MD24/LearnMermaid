@@ -21,8 +21,8 @@
 
 ## <span style="font-style: italic; color: #ff3570;">About the Project Details</span>
 
-- **Recommended using `WebStorm, Intellij IDEA (Community / Ultimate), Aqua`**
-- **Currently Used `Aqua`**
+- **Recommended using** `WebStorm, Intellij IDEA (Community / Ultimate), Aqua`
+- **Currently Used** `Aqua`
 - **Mermaid Version** `11.4.0`
 
 ---
